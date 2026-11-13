@@ -1,0 +1,12 @@
+node_modules/
+dist/
+out/
+# local config — contains camera / NVR passwords
+cameras.json
+nvr.json
+# ffmpeg binary dropped next to the app (use npm's ffmpeg-static instead)
+ffmpeg
+ffmpeg.exe
+*.log
+.DS_Store
+Thumbs.db

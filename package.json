@@ -1,0 +1,45 @@
+{
+  "name": "zornix",
+  "productName": "Zornix",
+  "version": "1.0.0",
+  "description": "Fast, good-looking desktop CCTV viewer: live RTSP grid up to 5×5 and NVR recording playback with a scrubbable 24-hour timeline.",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Danieljsem",
+  "homepage": "https://github.com/Danieljsem/zornix#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Danieljsem/zornix.git"
+  },
+  "keywords": [
+    "cctv",
+    "nvr",
+    "dvr",
+    "rtsp",
+    "ip-camera",
+    "xmeye",
+    "dvrip",
+    "sofia",
+    "surveillance",
+    "electron",
+    "ffmpeg",
+    "jsmpeg"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "demo": "electron . --demo"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "optionalDependencies": {
+    "ffmpeg-static": "^5.2.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  },
+  "allowScripts": {
+    "electron": true,
+    "ffmpeg-static": true
+  }
+}
